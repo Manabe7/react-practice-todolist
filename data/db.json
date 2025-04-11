@@ -1,0 +1,34 @@
+{
+  "toDoList": [
+    {
+      "id": "1",
+      "item": "caca",
+      "editState": false,
+      "checked": false
+    },
+    {
+      "id": "2",
+      "item": "cacas",
+      "editState": false,
+      "checked": false
+    },
+    {
+      "id": "3",
+      "item": "cacasc",
+      "editState": false,
+      "checked": true
+    },
+    {
+      "id": "4",
+      "item": "cacasc",
+      "editState": false,
+      "checked": true
+    },
+    {
+      "id": "5",
+      "item": "dasdasdad",
+      "editState": false,
+      "checked": false
+    }
+  ]
+}
