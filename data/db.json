@@ -2,31 +2,31 @@
   "toDoList": [
     {
       "id": "1",
-      "item": "caca",
+      "item": "work out",
       "editState": false,
       "checked": false
     },
     {
       "id": "2",
-      "item": "cacas",
+      "item": "go to groceries store",
       "editState": false,
       "checked": false
     },
     {
       "id": "3",
-      "item": "cacasc",
+      "item": "buy icecream",
       "editState": false,
-      "checked": true
+      "checked": false
     },
     {
       "id": "4",
-      "item": "cacasc",
+      "item": "hang out with friends",
       "editState": false,
-      "checked": true
+      "checked": false
     },
     {
       "id": "5",
-      "item": "dasdasdad",
+      "item": "get home",
       "editState": false,
       "checked": false
     }

@@ -5,7 +5,7 @@ const ToDoList = () => {
     return (
         <div>
             <h1 className='ListBanner'>ToDoList</h1>
-            <p>By Matcha Coding</p>
+            <p></p>
             
         </div>
     )

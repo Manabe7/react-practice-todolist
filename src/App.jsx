@@ -18,8 +18,9 @@ function App() {
   const [error, setError] = useState(null);
 
   const addItem = async (item) => {
-    const id = list.length ? list[list.length - 1 ].id + 1 : 1;
-    const newItem = {id, item, checked : false, editState : false}; 
+    const id = list.length ? Number(list[list.length-1].id)+1: 1;
+    const toStringNewID = id.toString();
+    const newItem = {id: toStringNewID, item, checked : false, editState : false}; 
     const newList = [...list, newItem];
     setList(newList);
 
@@ -149,8 +150,6 @@ useEffect(() => {
     }
   };
   fetchData();
-  console.log(list);
-  console.log(list.length);
 }, []);
 
   return (
