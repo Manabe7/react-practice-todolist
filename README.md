@@ -49,7 +49,7 @@ Make sure you have the following installed on your machine:
     npm run dev
 ```
 
-🖱️ Usage
+## 🖱️ Usage
 - Add a task using the input field and "Add" button.
 
 - Click the checkbox to mark a task as complete/incomplete.
@@ -60,7 +60,7 @@ Make sure you have the following installed on your machine:
 
 - All data is persisted using the local mock API.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 - React
 
 - JavaScript
