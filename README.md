@@ -25,39 +25,46 @@ Make sure you have the following installed on your machine:
 - [json-server](https://www.npmjs.com/package/json-server) for mock REST API
 
  You can install `json-server` globally if you haven’t already:
+```console
     npm install -g json-server
+```
 
 ### Installation
 
 1. **Clone the repository:**
+```console
    git clone https://github.com/Manabe7/react-practice-todolist.git
    cd my-vue-app
-
-2. Install dependencies:
+```
+2. **Install dependencies:**
+```console
     npm install
-
-3. Start the JSON Server:
+```
+3. **Start the JSON Server:**
+```console
     npx json-server -p 3500 -w data/db.json 
-
-4. Start the Vite development server:
+```
+4. **Start the Vite development server:**
+```console
     npm run dev
+```
 
 🖱️ Usage
-    - Add a task using the input field and "Add" button.
+- Add a task using the input field and "Add" button.
 
-    - Click the checkbox to mark a task as complete/incomplete.
+- Click the checkbox to mark a task as complete/incomplete.
 
-    - Completed tasks cannot be edited.
+- Completed tasks cannot be edited.
 
-    - Delete tasks using the "Delete" button.
+- Delete tasks using the "Delete" button.
 
-    - All data is persisted using the local mock API.
+- All data is persisted using the local mock API.
 
 🛠 Tech Stack
-    - React
+- React
 
-    - JavaScript
+- JavaScript
 
-    - json-server
+- json-server
 
-    - CSS
+- CSS
