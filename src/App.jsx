@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import ToDoList from './todoList';
+import ToDoList from './ToDoList';
 import InputField from './InputField';
 import ListItem from './ListItem';
 import apiRequest from './apiRequest';
